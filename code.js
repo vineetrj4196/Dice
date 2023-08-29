@@ -1,6 +1,6 @@
 var roll=document.getElementById("roll")
 roll.addEventListener("click",function(e){
-})
+
 var randomo1=Math.floor(Math.random()*6)+1
 
 var randomimg1="images/dice"+randomo1+".png"
@@ -29,3 +29,4 @@ else if(randomo2>randomo1)
 respointer.innerHTML="Player 2 Won"
 else
 respointer.innerHTML="Draw"
+})
